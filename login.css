@@ -55,6 +55,7 @@ body {
     margin-right: 50px;
     gap: 80px;
     position: relative;
+    
 }
 
 .sign-up-in {
@@ -69,29 +70,26 @@ body {
     align-items: center;
 }
 
-.service-box {
+.service-box a {
     color: var(--color-white);
     padding: 15px 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: var(--color-white);
 }
 
-.service-box:hover {
+.service-box a:hover {
     color: var(--color-white);
-    padding: 15px 20px;
     background-color: var(--color-navbar-hover);
     border-radius: 10px;
 }
 
-.service-box a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .login-register {
     background-color: var(--color-primary);
-    padding: 15px 20px;
     border-radius: 10px;
+    padding: 15px 0px;
+    border: none;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     transition: transform 0.3s, background-color 0.3s ease;
 }

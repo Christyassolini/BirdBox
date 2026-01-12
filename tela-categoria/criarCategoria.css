@@ -73,8 +73,7 @@ html, body {
 }
 
 .nav-service-box a:hover {
-    background-color: var(--color-navbar-hover);
-    
+    background-color: var(--color-navbar-hover);   
 }
 
 .container,
