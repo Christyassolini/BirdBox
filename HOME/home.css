@@ -24,6 +24,7 @@
 
 body {
     background: var(--background-login);
+    min-height: 100vh;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     background-size: cover;
