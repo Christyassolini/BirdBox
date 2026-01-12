@@ -41,6 +41,44 @@ html, body {
     margin: 0;
 }
 
+@media (max-width: 768px) {
+    .nav-container {
+        overflow-x: hidden;
+            display: flex;
+            background: linear-gradient(90deg, #013301,#035303,#013301);
+            height: 100px;
+            width: 100%;
+            justify-content: space-between;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    }
+
+    .nav-back{
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+    }
+
+    .nav-service-box {
+        margin-right: 0;
+        padding: 0 10px;
+        gap: 12px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-service-box a {
+        color: var(--color-white);
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        white-space: nowrap;
+        color: var(--color-white);
+        padding: 0px 10px;
+        border-radius: 5px;
+    }
+}
+
 .nav-container {
     display: flex;
     background: linear-gradient(90deg, #013301,#035303,#013301);
